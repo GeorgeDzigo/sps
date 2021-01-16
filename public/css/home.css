@@ -1,0 +1,94 @@
+h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
+      font-weight: 100;
+}
+/* LINE */
+      .line {
+            background-color: #71b32d;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+      }
+      .line h3 {
+            display: inline-block;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+      }
+/* END LINE */
+
+/* SEARCH SECTION */
+      .search_section {
+            background-image: url('../imgs/section/bckgr.jpg');
+            background-repeat: no-repeat;
+            height: 450px;
+            width: 100%;
+      }
+      /* SEARCH SECTION HEADINGS */
+            .search_section > center > div {
+                  position: relative;
+                  top: 15px;
+            }
+            .search_section > center > div > pre {
+                  position: relative;
+                  top: 30px;
+                  color: white !important;
+                  font-size: 22px;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+      /* END SEARCH SECTION HEADINGS */
+      /* INPUT STYLES */
+            
+            .search-section-input-holder {
+                  margin-bottom: 70px;
+            }
+            input[type=text], select {
+                  width: 30%;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  display: inline-block;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                  border-radius: 60px;
+            }
+            button[type=submit]{
+                  width: 10%;
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 14px 20px;
+                  margin: 8px 0;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  border-radius: 60px;
+            }
+      /* END INPUT STYLES */
+
+      /* BUTTON STYLES */
+
+      .search_section-btn{
+            width: 10%;
+            background-color: #124d5a;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 60px;
+            margin-left: 25px;
+      }
+      .search_section-btn1 {
+            width: 13%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 60px;
+            margin-left: 25px;
+      }
+      /* END BUTTON STYLES */
+/* END SEARCH SECTION */

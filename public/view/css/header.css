@@ -1,0 +1,82 @@
+/* GENERAL CODE */
+      body {
+            overflow-x: hidden;
+      }
+/* END GENERAL CODE */
+
+/* HEADER */
+      header {margin-top: 20px;}
+/* END HEADER */
+
+/* LOGO NAVIGATION */
+      .nav > div{
+            display: inline-block;
+            padding: 0px 14px 0px 14px;
+      }
+      /* NAV SEARCH */
+            .nav-search > a {
+                  text-decoration: none;
+                  color: black !important;
+                  font-size: 20px;
+            }
+            .nav-search > a > pre > img {
+                  width: 30px;
+            }
+      /* END NAV SEARCH */
+
+      /* NAV TRUCK */
+            .nav-truck > a {
+                  text-decoration: none;
+                  color: black !important;
+                  font-size: 20px;
+            }
+            .nav-truck > a > pre > img{
+                  width: 60px;
+            }
+      /* END NAV TRUCK */
+            .nav-bucket > a {
+                  text-decoration: none;
+                  color: black !important;
+                  font-size: 20px;
+            }
+            .nav-bucket > a > pre > img {
+                  width: 60px
+            }
+      /* NAV BUCKET */
+      
+      /* END NAV BUCKET */
+      
+      /* NAV HAT */
+            .nav-hat > a {
+                  text-decoration : none;
+                  color: black !important;
+                  font-size: 20px;
+            }
+            .nav-hat > a > pre > img {
+                  width: 60px;
+            }
+      /* END NAV HAT */
+/* END LOGO NAVIGATION */
+
+/* NAVIGATION */
+      .navigation  {
+            width: 100%;
+            border-top: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+            margin-top: 20px;
+            padding: 15px;
+      }
+      /* NAVIGATION DIVS */
+            .navigation > div {
+                  display: inline-block;
+                  padding: 0px 35px 0px 35px;
+            }
+            .navigation > div > a {
+                  text-decoration: none;
+                  color: black;
+                  font-size: 20px;
+
+            }
+      /* END NAVIGATION DIVS */
+
+/* END NAVIGATION */
